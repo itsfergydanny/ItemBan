@@ -1,0 +1,32 @@
+#
+# ItemBan by fergydanny (tyldanny) @ sysadamant.com
+#
+
+# Anyone with this permission will bypass the checks.
+bypassPermission: 'itemban.bypass'
+
+#
+# Format: MATERIAL:MESSAGE, for example GRASS_BLOCK:&cCan''t do that!
+# You can use regular color codes with &<code> or hex using #ffffff
+#
+# If you use single quotes around the lines and want to use quotes in the message,
+# make sure to use two singlequotes, for example 'ITEM:You can''t do this'
+#
+# If you don't want anything in a category, simply set it to [] or leave one invalid line.
+#
+craftingBanned:
+  - 'HOPPER:&cYou can''t craft this. Purchase it from /shop'
+  - 'PISTON:&cYou can''t craft this. Purchase it from /shop'
+  - 'STICKY_PISTON:&cYou can''t craft this. Purchase it from /shop'
+  - 'OBSERVER:&cYou can''t craft this. Purchase it from /shop'
+  - 'BEACON:&cYou can''t craft this. Purchase it from /mobcoins'
+
+# pickupBanned will confiscate the item.
+pickupBanned:
+  - 'BEDROCK:&cStaff only!'
+
+placeBanned:
+  - 'BEDROCK:&cStaff only!'
+
+breakBanned:
+  - 'BEDROCK:&cStaff only!'

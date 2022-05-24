@@ -1,0 +1,7 @@
+name: ItemBan
+version: '${project.version}'
+main: com.sysadamant.itemban.ItemBan
+api-version: 1.18
+authors: [ tyldanny ]
+description: A super basic plugin to ban crafting/owning/placing/breaking certain items
+website: https://sysadamant.com
